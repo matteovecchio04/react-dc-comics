@@ -3,20 +3,43 @@ export default function App() {
 
   return (
     <>
-      <ul className="nav justify-content-end">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+      <nav className="d-flex justify-content-around py-3">
+
+        <img src="../assets/img/dc-logo.png" alt="..." width={50} />
+
+        <ul className="nav">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="#">Characters</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Comics</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Movies</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">TV</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Games</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Collectibles</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Videos</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Fans</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">News</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Shop</a>
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
