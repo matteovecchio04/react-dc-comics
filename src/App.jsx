@@ -3,7 +3,7 @@ export default function App() {
 
   return (
     <>
-      <nav className="d-flex justify-content-around py-3">
+      <nav className="d-flex justify-content-between py-3 container">
 
         <img src="../assets/img/dc-logo.png" alt="..." width={50} />
 
