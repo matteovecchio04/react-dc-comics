@@ -1,0 +1,12 @@
+#footer-bg {
+    background-image: url("/assets/img/footer-bg.jpg");
+    height: 350px;
+}
+
+h5 {
+    color: white;
+}
+
+#jumbo-footer {
+    gap: 5rem;
+}
