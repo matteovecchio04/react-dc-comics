@@ -1,9 +1,19 @@
+import comics from "../assets/dc-comics-2/comics.js"
+
 export default function Main() {
     return (<main>
         <section>
             <section className="bg-dark">
                 <div className="container py-4">
-                    <h2 className="text-light">Content goes here</h2>
+                    <div className="text-light">
+                        <ul className="list-unstyled d-flex">
+                            {
+                                comics.map(book => (
+                                    <li><img className="" height={100} width={100} src={book.thumb} alt="..." />{book.title}</li>
+                                ))
+                            }
+                        </ul>
+                    </div>
                 </div>
             </section>
 
