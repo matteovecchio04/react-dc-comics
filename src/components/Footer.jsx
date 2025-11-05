@@ -48,7 +48,7 @@ export default function Footer() {
 
         <section className="footer-bg-col">
             <div className="container py-4 d-flex justify-content-between">
-                <button className="btn btn-secondary">SIGN UP NOW!</button>
+                <button className="btn btn-transparent border-primary text-light">SIGN UP NOW!</button>
                 <div id="footer-nav">
                     <p className="text-primary">FOLLOW US</p>
                     <img src="../assets/img/footer-facebook.png" alt="..." width={40} />
