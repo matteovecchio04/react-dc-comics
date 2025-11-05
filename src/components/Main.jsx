@@ -6,10 +6,13 @@ export default function Main() {
             <section className="bg-dark">
                 <div className="container py-4">
                     <div className="text-light">
-                        <ul className="list-unstyled d-flex">
+                        <ul id="comics" className="list-unstyled">
                             {
                                 comics.map(book => (
-                                    <li><img className="" height={100} width={100} src={book.thumb} alt="..." />{book.title}</li>
+                                    <li className="comic-card">
+                                        <img height={150} width={150} src={book.thumb} alt={book.title} />
+                                        <p className="text-center">{book.title}</p>
+                                    </li>
                                 ))
                             }
                         </ul>
