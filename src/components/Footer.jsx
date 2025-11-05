@@ -2,6 +2,7 @@ export default function Footer() {
     return (<footer>
 
         <section id="footer-bg">
+            <img id="dc-over" src="../src/assets/img/dc-logo-bg.png" alt="" />
             <div id="jumbo-footer" className="container d-flex text-secondary pt-4">
                 <ul className="list-unstyled">
                     <h5>DC COMICS</h5>
@@ -51,11 +52,11 @@ export default function Footer() {
                 <button className="btn btn-transparent border-primary text-light">SIGN UP NOW!</button>
                 <div id="footer-nav">
                     <p className="text-primary">FOLLOW US</p>
-                    <img src="../assets/img/footer-facebook.png" alt="..." width={40} />
-                    <img src="../assets/img/footer-periscope.png" alt="..." width={40} />
-                    <img src="../assets/img/footer-pinterest.png" alt="..." width={40} />
-                    <img src="../assets/img/footer-twitter.png" alt="..." width={40} />
-                    <img src="../assets/img/footer-youtube.png" alt="..." width={40} />
+                    <img src="../src/assets/img/footer-facebook.png" alt="..." width={40} />
+                    <img src="../src/assets/img/footer-periscope.png" alt="..." width={40} />
+                    <img src="../src/assets/img/footer-pinterest.png" alt="..." width={40} />
+                    <img src="../src/assets/img/footer-twitter.png" alt="..." width={40} />
+                    <img src="../src/assets/img/footer-youtube.png" alt="..." width={40} />
                 </div>
             </div>
         </section>

@@ -6,14 +6,15 @@
 }
 
 #footer-bg {
-    background-image: url("/assets/img/footer-bg.jpg");
+    background-image: url("/src/assets/img/footer-bg.jpg");
     height: 350px;
     position: relative;
+    overflow: hidden;
 
     #dc-over {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -25%;
+        left: 50%;
     }
 }
 
@@ -51,5 +52,12 @@ h5 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-transform: uppercase;
     }
+}
+
+#jumbo {
+    background-image: url("/src/assets/img/jumbotron.jpg");
+    background-size: cover;
+    height: 400px;
 }

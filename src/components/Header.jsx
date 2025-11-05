@@ -3,7 +3,7 @@ export default function Header() {
         <section className="bg-light">
             <nav className="d-flex justify-content-between py-3 container">
 
-                <img src="../assets/img/dc-logo.png" alt="..." width={50} />
+                <img src="../src/assets/img/dc-logo.png" alt="..." width={50} />
 
                 <ul className="nav">
                     <li className="nav-item">
