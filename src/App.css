@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 #footer-bg {
     background-image: url("/assets/img/footer-bg.jpg");
     height: 350px;
@@ -9,4 +16,19 @@ h5 {
 
 #jumbo-footer {
     gap: 5rem;
+}
+
+.footer-bg-col {
+    background-color: #303030;
+}
+
+#footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    p {
+        margin: 0;
+    }
 }

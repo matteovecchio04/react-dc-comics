@@ -53,6 +53,20 @@ export default function App() {
           </ul>
         </div>
       </section>
+
+      <section className="footer-bg-col">
+        <div className="container py-4 d-flex justify-content-between">
+          <button className="btn btn-secondary">SIGN UP NOW!</button>
+          <div id="footer-nav">
+            <p className="text-primary">FOLLOW US</p>
+            <img src="../assets/img/footer-facebook.png" alt="..." width={40} />
+            <img src="../assets/img/footer-periscope.png" alt="..." width={40} />
+            <img src="../assets/img/footer-pinterest.png" alt="..." width={40} />
+            <img src="../assets/img/footer-twitter.png" alt="..." width={40} />
+            <img src="../assets/img/footer-youtube.png" alt="..." width={40} />
+          </div>
+        </div>
+      </section>
     </>
   )
 }
