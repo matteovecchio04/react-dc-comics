@@ -1,5 +1,5 @@
 import comics from "../assets/dc-comics-2/comics.js"
-import Card from "../components/Card.jsx"
+import Card from "./card.jsx"
 
 export default function Main() {
     return (<main>
@@ -11,7 +11,7 @@ export default function Main() {
                         <ul id="comics" className="list-unstyled">
                             {
                                 comics.map(book => (
-                                    <Card />
+                                    <Card key={book.id} title={book.title} thumb={book.thumb} />
                                 ))
                             }
                         </ul>
