@@ -1,11 +1,11 @@
 export default function Header() {
     return (<header>
         <section className="bg-light">
-            <nav className="d-flex justify-content-between py-3 container">
+            <nav className="d-flex justify-content-between container align-items-center">
 
                 <img src="../src/assets/img/dc-logo.png" alt="..." width={50} />
 
-                <ul className="nav">
+                <ul className="nav text-dark">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="#">Characters</a>
                     </li>

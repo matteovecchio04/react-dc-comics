@@ -61,3 +61,16 @@ h5 {
     background-size: cover;
     height: 400px;
 }
+
+.nav-link {
+    color: black;
+
+    &:hover {
+        color: #0282f9;
+        border-bottom: #0282f9;
+    }
+}
+
+.nav>.nav-item {
+    padding: 2rem 0;
+}
