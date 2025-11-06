@@ -1,4 +1,5 @@
 import comics from "../assets/dc-comics-2/comics.js"
+import Card from "../components/Card.jsx"
 
 export default function Main() {
     return (<main>
@@ -10,10 +11,7 @@ export default function Main() {
                         <ul id="comics" className="list-unstyled">
                             {
                                 comics.map(book => (
-                                    <li className="comic-card">
-                                        <img height={200} width={150} src={book.thumb} alt={book.title} />
-                                        <p className="text-center">{book.title}</p>
-                                    </li>
+                                    <Card />
                                 ))
                             }
                         </ul>
