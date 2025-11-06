@@ -1,7 +1,7 @@
-import comics from "../assets/dc-comics-2/comics.js"
+
 import Card from "./card.jsx"
 
-export default function Main() {
+export default function Main({ comics }) {
     return (<main>
         <section>
             <section className="bg-dark">
